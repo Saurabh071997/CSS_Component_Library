@@ -295,6 +295,10 @@ nav ul li a:hover{
     border-radius:1rem;
     width:70%;
     margin:0rem auto;
+
+}
+
+.display-flex{
     display: flex;
 }
 
