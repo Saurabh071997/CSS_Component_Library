@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POOL.ui | Saurabh Kamboj</title>
     <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/png">
+
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/components/avatar.css">
+    <link rel="stylesheet" href="/prism.css">
 </head>
 
 <body>
@@ -19,13 +21,193 @@
             <div class="flex-author">| &nbsp;&nbsp; Saurabh Kamboj </div>
             <nav id="nav-menu">
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="component.html">COMPONENTS</a></li>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/component.html">COMPONENTS</a></li>
                 </ul>
                 <img class="close-icon" src="/images/cross.svg">
             </nav>
             <img class="open-icon" src="/images/open.svg">
         </div>
+
+
+        <div class="component-container">
+            <div class="component-heading">Avatars</div>
+
+            <div class="component-block block-odd">
+                <div class="component-block-heading">Circular Avatar</div>
+                <div class="component-block-item ">
+                    <img src="/components/component_img/img_avatar.png" class="avatar-circular img50x50">
+                    <img src="/components/component_img/img_avatar.png" class="avatar-circular img60x60">
+                    <img src="/components/component_img/img_avatar.png" class="avatar-circular img70x70">
+                    <img src="/components/component_img/img_avatar.png" class="avatar-circular img80x80">
+                </div>
+                <div class="component-block-html">
+                    <div class="block-html">HTML CODE</div>
+                    <pre>
+                       <code class="language-html">
+                        &lt;img src="img_avatar.png" class="avatar-circular img50x50"&gt;
+                        &lt;img src="img_avatar.png" class="avatar-circular img60x60"&gt;
+                        &lt;img src="img_avatar.png" class="avatar-circular img70x70"&gt;
+                        &lt;img src="img_avatar.png" class="avatar-circular img80x80"&gt;
+
+                       </code>
+                   </pre>
+
+                </div>
+                <div class="component-block-css">
+                    <div class="block-css">CSS</div>
+                    <pre><code class="language-css">
+                    .avatar-circular{
+                        border-radius: 50%;
+                        margin: 0rem 1rem;
+                    }
+                    
+                    .img50x50{
+                        height:50px;
+                        width:50px;
+                    }
+                    
+                    .img60x60{
+                        height:60px;
+                        width:60px;
+                    }
+                    
+                    .img70x70{
+                        height:70px;
+                        width:70px;
+                    }
+                    
+                    .img80x80{
+                        height:80px;
+                        width:80px;
+                    }
+
+                   </code></pre>
+                </div>
+            </div>
+
+            <div class="component-block block-even">
+                <div class="component-block-heading">Rounded Avatar</div>
+                <div class="component-block-item ">
+                    <img src="/components/component_img/img_avatar.png" class="avatar-rounded img50x50">
+                    <img src="/components/component_img/img_avatar.png" class="avatar-rounded img60x60">
+                    <img src="/components/component_img/img_avatar.png" class="avatar-rounded img70x70">
+                    <img src="/components/component_img/img_avatar.png" class="avatar-rounded img80x80">
+                </div>
+                <div class="component-block-html">
+                    <div class="block-html">HTML CODE</div>
+                    <pre>
+                    <code class="language-html">
+                     &lt;img src="img_avatar.png" class="avatar-rounded img50x50"&gt;
+                     &lt;img src="img_avatar.png" class="avatar-rounded img60x60"&gt;
+                     &lt;img src="img_avatar.png" class="avatar-rounded img70x70"&gt;
+                     &lt;img src="img_avatar.png" class="avatar-rounded img80x80"&gt;
+
+                    </code>
+                </pre>
+
+                </div>
+                <div class="component-block-css">
+                    <div class="block-css">CSS</div>
+                    <pre><code class="language-css">
+                    .avatar-rounded{
+                        border-radius:0.75rem;
+                        margin:0rem 1rem;
+                    }                    
+                </code></pre>
+                </div>
+            </div>
+
+            <div class="component-block block-odd">
+                <div class="component-block-heading">Circular Avatar with Placehoder icon</div>
+                <div class="component-block-item ">
+                    <img src="https://via.placeholder.com/150" class="avatar-circular img50x50">
+                    <img src="https://via.placeholder.com/150" class="avatar-circular img60x60">
+                    <img src="https://via.placeholder.com/150" class="avatar-circular img70x70">
+                    <img src="https://via.placeholder.com/150" class="avatar-circular img80x80">
+                </div>
+                <div class="component-block-html">
+                    <div class="block-html">HTML CODE</div>
+                    <pre>
+                       <code class="language-html">
+                        &lt;img src="https://via.placeholder.com/150" class="avatar-circular img50x50"&gt;
+                        &lt;img src="https://via.placeholder.com/150" class="avatar-circular img60x60"&gt;
+                        &lt;img src="https://via.placeholder.com/150" class="avatar-circular img70x70"&gt;
+                        &lt;img src="https://via.placeholder.com/150" class="avatar-circular img80x80"&gt;
+
+                       </code>
+                   </pre>
+
+                </div>
+                <div class="component-block-css">
+                    <div class="block-css">CSS</div>
+                    <pre><code class="language-css">
+                    .avatar-circular{
+                        border-radius: 50%;
+                        margin: 0rem 1rem;
+                    }
+
+                   </code></pre>
+                </div>
+            </div>
+
+            <div class="component-block block-odd">
+                <div class="component-block-heading">Circular Avatar with Initials</div>
+                <div class="component-block-item">
+                    <div class="avatar-initial avatar-circular img50x50 text-sm">SK</div>
+                    <div class="avatar-initial avatar-circular img60x60 text-md">SK</div>
+                    <div class="avatar-initial avatar-circular img70x70 text-lg">SK</div>
+                    <div class="avatar-initial avatar-circular img80x80 text-vlg">SK</div>
+                </div>
+                <div class="component-block-html">
+                    <div class="block-html">HTML CODE</div>
+                    <pre>
+                       <code class="language-html">
+                        &lt;div class="avatar-initial avatar-circular img50x50 text-sm"&gt; SK &lt;/div&gt;
+                        &lt;div class="avatar-initial avatar-circular img60x60 text-md"&gt; SK &lt;/div&gt;
+                        &lt;div class="avatar-initial avatar-circular img70x70 text-lg"&gt; SK &lt;/div&gt;
+                        &lt;div class="avatar-initial avatar-circular img80x80 text-vlg"&gt; SK &lt;/div&gt;
+
+                       </code>
+                   </pre>
+
+                </div>
+                <div class="component-block-css">
+                    <div class="block-css">CSS</div>
+                    <pre><code class="language-css">
+                        .avatar-initial{
+                            background-color:#A8A29E;
+                            padding:0.5rem;
+                            text-align:center;
+                        }
+                        
+                        .text-sm{
+                            font-size:1.5rem;
+                        }
+                        
+                        .text-md{
+                            font-size:2.25rem;
+                        }
+                        
+                        .text-lg{
+                            font-size:2.75rem;
+                        }
+                        
+                        .text-vlg{
+                            font-size:3rem;
+                        }
+
+                   </code></pre>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+
 
 
 
@@ -53,7 +235,7 @@
                         <img class="footer-social-link-img" src="/images/mail.svg">
                     </a>
 
-                    
+
 
                 </div>
 
@@ -66,6 +248,7 @@
 
 
     <script src="/app.js"></script>
+    <script src="/prism.js"></script>
 
 </body>
 
