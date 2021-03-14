@@ -1,7 +1,8 @@
+@import "size.css";
 
 .badge-icon{
     position: relative;
-    margin:0rem auto;
+    margin:0.5rem auto;
 }
 
 .badge-icon-img{
@@ -28,26 +29,6 @@
     position:absolute;
     bottom:0em;
     right:0em;
-}
-
-.img50x50{
-    height:50px;
-    width:50px;
-}
-
-.img60x60{
-    height:60px;
-    width:60px;
-}
-
-.img70x70{
-    height:70px;
-    width:70px;
-}
-
-.img80x80{
-    height:80px;
-    width:80px;
 }
 
 .dot-green{

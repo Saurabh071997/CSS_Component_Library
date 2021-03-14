@@ -1,0 +1,84 @@
+@import "size.css";
+
+.btn{
+    font-size:1.25rem;
+    padding:0.25rem 1.5rem;
+    margin: 0.5rem;
+    cursor:pointer;
+    border-radius: 0.25rem;
+    color:white;
+}
+
+.btn-contained-primary{
+    background-color: #0E7490;
+    border: 0.25px solid #0E7490;
+}
+
+.btn-contained-secondary{
+    background-color: #3F3F46;
+    border: 0.25px solid #3F3F46;
+}
+
+.btn-contained-success{
+    background-color: #16A34A;
+    border: 0.25px solid #16A34A;
+}
+
+.btn-contained-failure{
+    background-color: #DC2626;
+    border: 0.25px solid #DC2626;
+}
+
+.btn-outlined-primary{
+    border: 0.5px solid #0E7490;
+    color:#0E7490;
+    background-color: white;
+
+}
+
+.btn-outlined-secondary{
+    border: 0.5px solid #3F3F46;
+    color:#3F3F46;
+    background-color: white;
+}
+
+.btn-outlined-success{
+    border: 0.5px solid #16A34A;
+    color:#16A34A;
+    background-color: white;
+}
+
+.btn-outlined-failure{
+    border: 0.5px solid #DC2626;
+    color:#DC2626;
+    background-color: white;
+}
+
+
+.btn-icon{
+    padding:0.5rem;
+    background: transparent;
+    border-radius:50%;
+    margin:0.5rem 1rem;
+    border:none;
+
+}
+
+.btn-icon:hover{
+    background-color:#BFDBFE;
+}
+
+.btn-icon-label{
+    margin:1rem 1.25rem;
+    padding:0.5rem ;
+    border-radius:0.35rem;
+    background: transparent;
+    border:0.5px solid #D4D4D8;
+}
+
+.btn-label-txt{
+    font-size: 1rem;
+    margin:0.25rem;
+    color:#0E7490;
+}
+

@@ -1,3 +1,4 @@
+@import "size.css";
 
 .avatar-circular{
     border-radius: 50%;
@@ -7,27 +8,6 @@
 .avatar-rounded{
     border-radius:0.75rem;
     margin:0rem 1rem;
-}
-
-.img50x50{
-    height:50px;
-    width:50px;
-}
-
-.img60x60{
-    height:60px;
-    width:60px;
-}
-
-.img70x70{
-    height:70px;
-    width:70px;
-}
-
-.img80x80{
-    height:80px;
-    width:80px;
-
 }
 
 .avatar-initial{
