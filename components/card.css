@@ -1,0 +1,144 @@
+@import "size.css";
+
+.card-block{
+    display:flex;
+    flex-direction: column;
+    max-width:270px;
+    border-radius:0.25rem;
+    background-color: white;
+    margin:1rem;
+    position: relative;
+    box-shadow: 5px 5px 8px #D6D3D1;
+
+}
+
+.card-block-img{
+    height:290px;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.card-block-badge{
+    font-size:0.6rem;
+    padding:0.1rem 0.35rem;
+    color:white;
+    background-color: #0F172A;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    box-shadow: 3px 3px 5px gray;
+    position:absolute;
+    top:2em;
+    left:0em;
+}
+
+.card-block-dismiss{
+    font-size: 0.6rem;
+    font-weight: bold;
+    padding:0.25rem;
+    border-radius:50%;
+    background-color: #F4F4F5;
+    color:black;
+    position: absolute;
+    top:0.7em;
+    right:0.5em;
+}
+
+.card-block-dismiss:hover{
+    cursor:pointer;
+}
+
+.card-block-heading{
+    font-size: 1.25rem;
+    margin:0.5rem;
+    border-bottom:0.5px solid #A8A29E;
+
+}
+
+.card-block-content{
+    font-size:0.75rem;
+    color: #44403C;
+    width:85%;
+    margin:0.25rem 0.5rem;
+}
+
+
+.card-block-btn{
+    margin:1rem 0.5rem;
+}
+
+
+.card-block-btn-style{
+    font-size: 1rem;
+    background-color: #292524;
+    color:white;
+    padding:0.25rem 0.75rem;
+    width:auto;
+    cursor:pointer;
+}
+
+
+.card-block-detail{
+    display:flex;
+    flex-direction: column;
+    margin:0.5rem;
+}
+
+.card-block-detail-title{
+    font-size: 1.25rem;
+    margin:0.25rem 0rem 0rem 0rem;
+}
+
+.card-block-detail-txt{
+    font-size:0.8rem;
+    color:#292524;
+    margin:0.25rem 0rem 0rem 0rem;
+}
+
+.card-block-detail-info{
+    font-size:0.75rem;
+    color:#292524;
+    margin:0.25rem 0rem 0rem 0rem;
+}
+
+.card-horizontal{
+    display:flex;
+    height:180px;
+    max-width:400px;
+    border-radius:0.25rem;
+    background-color: white;
+    margin:1rem;
+    position: relative;
+    box-shadow: 5px 5px 8px #D6D3D1;
+    flex-shrink: 1;
+    /* flex-wrap: wrap; */
+}
+
+.card-horizontal-img{
+    height:auto;
+    width:40%;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    display: flex;
+    flex-shrink: 1;
+}
+
+.card-horizontal-block-detail{
+    display:flex;
+    flex-direction: column;
+    margin-left: 0.75rem;
+    padding-top: 1rem;
+    width:60%;
+    position: relative;
+}
+
+.card-horizontal-block-btn{
+    margin:1rem 0rem;
+    position: absolute;
+    bottom:0em;
+}
+
+
+
+
+
+

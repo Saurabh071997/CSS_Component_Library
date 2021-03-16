@@ -165,14 +165,17 @@ nav ul li a:hover{
     color: var(--warmgray100);
     background-color: var(--warmgray900);
     padding:0.5rem 1rem;
-    font-size: 1.55rem;
+    font-size: 1.5rem;
     margin:1rem 0rem;
     width:auto;
+    border:none;
 }
 
 .btn-explore:hover{
     color:var(--warmgray900);
     background-color: var(--warmgray50);
+    border: 1px solid var(--warmgray800);
+    cursor:pointer;
 }
 
 
