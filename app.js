@@ -1,12 +1,13 @@
 
-let menu = document.getElementById("nav-menu");
+let menu = document.getElementById("side-nav");
 
 function openMenu(){
-    menu.style.top = "0";
+    menu.style.width = "270px";
+   
 }
 
 function closeMenu(){
-    menu.style.top = "-100vh";
+    menu.style.width = "0px";
 }
 
 
