@@ -3,11 +3,15 @@ let menu = document.getElementById("side-nav");
 
 function openMenu(){
     menu.style.width = "270px";
+    // document.getElementById("flex-class").style.filter="brightness(50%)";
+    // document.getElementById("flex-class").style.backgroundColor="#78716C";
    
 }
 
 function closeMenu(){
     menu.style.width = "0px";
+    // document.getElementById("flex-class").style.filter="brightness(1)";
+    // document.getElementById("flex-class").style.backgroundColor="white";
 }
 
 
