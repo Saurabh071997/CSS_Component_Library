@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POOL.ui | Saurabh Kamboj</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/png">
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/components/toast.css">
+    <link rel="stylesheet" href="/prism.css">
 </head>
 
 <body>
@@ -27,7 +30,7 @@
                 <a href="#" >Grids</a>
                 <a href="/components/image.html" >Image</a>
                 <a href="/components/input.html" >Input</a>
-                <a href="/components/list.html" >List</a>
+                <a href="#" >List</a>
                 <a href="#" >Navigation</a>
                 <a href="#" >Modal</a>
                 <a href="#" >Text-Utilities</a>
@@ -45,69 +48,83 @@
             <div class="flex-author">| &nbsp;&nbsp; Saurabh Kamboj </div>
         </div>
 
-        <div class="component-msg">
-            <img class="component-msg-img" src="images/ghost-logo-css.svg">
-            <div class="component-msg-txt">Available components</div>
-        </div>
+        <div class="component-container">
+            <div class="component-heading">Toast</div>
+
+            <div class="component-block block-odd">
+                <div class="component-block-heading">Toast From Top</div>
+                <div class="component-block-item ">
+
+                    <button class="toast-top-show-btn">Show Toast</button>
+
+                        <div id="toast-top">
+                            <img class="img30x30" src="/components/component_img/nav-home.svg">
+                            <div id="desc">A toast message..</div>
+                        </div>
+
+    
+                </div>
+
+                <div class="component-block-html">
+                    <div class="block-html">HTML CODE</div>
+                    <pre>
+                       <code class="language-html">
+
+                        &lt;button class="toast-top-show-btn"&gt;Show Toast&lt;/button&gt;
+
+                        &lt;div id="toast-top"&gt;
+                            &lt;img class="img30x30" src="nav-home.svg"&gt;
+                            &lt;div id="desc"&gt;A toast message..&lt;/div&gt;
+                        &lt;/div&gt;
 
 
-        <div class="grid-component">
+                       </code>
+                   </pre>
 
-            <a href="/components/avatar.html" class="grid-component-tile-link">
-                <div class="grid-component-tile">Avatar</div>
-            </a>
+                </div>
+                
+           
+            </div>
 
-            <a href="/components/alert.html" class="grid-component-tile-link">
-                <div class="grid-component-tile">Alert</div>
-            </a>
 
-            <a href="/components/badge.html" class="grid-component-tile-link">
-                <div class="grid-component-tile">Badge</div>
-            </a>
+            <div class="component-block block-even">
+                <div class="component-block-heading">Toast From Bottom</div>
+                <div class="component-block-item ">
 
-            <a href="/components/button.html" class="grid-component-tile-link">
-                <div class="grid-component-tile">Button</div>
-            </a>
+                    <button class="toast-bottom-show-btn">Show Toast</button>
 
-            <a href="/components/card.html" class="grid-component-tile-link">
-                <div class="grid-component-tile">Card</div>
-            </a>
+                        <div id="toast-bottom">
+                            <img class="img30x30" src="/components/component_img/nav-home.svg">
+                            <div id="desc">A toast message..</div>
+                        </div>
 
-            <a href="/components/image.html" class="grid-component-tile-link">
-                <div class="grid-component-tile">Image</div>
-            </a>
+    
+                </div>
 
-            <a href="/components/input.html" class="grid-component-tile-link">
-                <div class="grid-component-tile">Input</div>
-            </a>
+                <div class="component-block-html">
+                    <div class="block-html">HTML CODE</div>
+                    <pre>
+                       <code class="language-html">
 
-            <a href="/components/list.html" class="grid-component-tile-link">
-                <div class="grid-component-tile">Lists</div>
-            </a>
+                        &lt;button class="toast-bottom-show-btn"&gt;Show Toast&lt;/button&gt;
 
-            <a href="/components/navigation.html" class="grid-component-tile-link">
-                <div class="grid-component-tile">Navigation</div>
-            </a>
+                        &lt;div id="toast-bottom"&gt;
+                            &lt;img class="img30x30" src="nav-home.svg"&gt;
+                            &lt;div id="desc"&gt;A toast message..&lt;/div&gt;
+                        &lt;/div&gt;
 
-            <a href="/components/modal.html" class="grid-component-tile-link">
-                <div class="grid-component-tile">Modal</div>
-            </a>
+                       </code>
+                   </pre>
 
-            <a href="#" class="grid-component-tile-link">
-                <div class="grid-component-tile">Flex</div>
-            </a>
+                </div>
+                
+           
+            </div>
 
-            <a href="#" class="grid-component-tile-link">
-                <div class="grid-component-tile">Grid</div>
-            </a>
 
-            <a href="/components/text_utilities.html" class="grid-component-tile-link">
-                <div class="grid-component-tile">Text-Utilities</div>
-            </a>
 
-            <a href="/components/toast.html" class="grid-component-tile-link">
-                <div class="grid-component-tile">Toast</div>
-            </a>
+
+
 
         </div>
 
@@ -134,7 +151,12 @@
                     <a href="mailto:saurabhkamboj1997@gmail.com" class="footer-social-link">
                         <img class="footer-social-link-img" src="/images/mail.svg">
                     </a>
+
+                    
+
                 </div>
+
+
             </div>
         </div>
 
@@ -143,6 +165,8 @@
 
 
     <script src="/app.js"></script>
+    <script src="/toast.js"></script>
+    <script src="/prism.js"></script>
 
 </body>
 
