@@ -66,5 +66,34 @@
 }
 
 
+@media screen and (max-width:600px){
+    .list-group{
+        list-style: none;
+        width:90%;
+        margin:1rem auto;
+    }
 
+    .list-item{
+        padding:0.5rem 1rem;
+        margin:0.2rem 0rem;
+        width:75%;
+        border:1px solid #0EA5E9;
+    }
+
+    .list-container-grp{
+        list-style: none;
+        width:90%;
+    }
+
+    .list-container-item{
+        display: flex;
+        padding:0.25rem;
+        margin:0.5rem 0rem;
+        width: 95%;
+        margin-left:-1rem;
+        border-radius:0.5rem;
+        border:1px solid #A8A29E;
+        box-shadow: 3px 3px 5px #A8A29E;
+    }
+}
 

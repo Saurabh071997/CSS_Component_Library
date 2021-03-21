@@ -1,6 +1,7 @@
 
+
 .floating-form {
-    width:320px;
+    max-width:300px;
     margin-top: 1.25rem;
 }
 
@@ -9,11 +10,12 @@
     margin:1rem; 
 }
 
+
 .floating-input , .floating-select {
     font-size:20px;
     padding:0.5rem 0.2rem;
     display:block;
-    width:100%;
+    width:95%;
     letter-spacing: 1px;
     background-color: transparent;
     border:none;
@@ -65,4 +67,22 @@ label {
 .floating-input-outlined:focus ~ label, .floating-input-outlined:not(:placeholder-shown) ~ label {
     margin-left: 0.25rem;
     background-color: white;
+}
+
+.floating-input:focus ~ .bar:before, .floating-input:focus ~ .bar:after, .floating-select:focus ~ .bar:before, .floating-select:focus ~ .bar:after {
+    width:50%;
+  }
+
+
+@media screen and (max-width:600px){
+    .floating-form {
+        width:90%;
+        margin-top: 1.25rem;
+    }
+    
+    .floating-select {
+        width:75%;
+    }
+
+     
 }

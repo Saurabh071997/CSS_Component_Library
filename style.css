@@ -21,10 +21,10 @@ body{
     --warmgray800: #292524;
     --warmgray900: #1C1917;
 }
-
+/* 
 body{
     margin: 0px;
-}
+} */
 
 .flex-container{
     display: flex;
@@ -36,7 +36,6 @@ body{
     display: flex;
     padding:0.5rem 0.5rem 0.5rem 2rem;
     position: relative;
-    
     
 }
 
@@ -61,7 +60,6 @@ body{
     align-self: center;
     cursor: pointer;
 }
-
 
 
 .sidebar{
@@ -160,10 +158,8 @@ a{
 .flex-content-block-detail{
     display: flex;
     flex-direction: column;
-    width:auto;
     width:60%; 
     flex-wrap: wrap;
-
 }
 
 .flex-content-block-detail-head{
@@ -240,19 +236,16 @@ a{
 
 .component-msg{
     display: flex;
-    /* max-width: 400px; */
     margin:1rem auto;
     align-items: center;
 }
 
 .component-msg-img{
     width:60px;
-    /* background-color: green; */
 }
 
 .component-msg-txt{
     font-size: 1.2rem;
-    /* background-color: red; */
 }
 
 .grid-component{
@@ -269,7 +262,7 @@ a{
     border-radius: 2rem;
     padding:0.25rem;
     text-align: center;
-    box-shadow: 10px 10px 5px var(--warmgray500);
+    box-shadow: 5px 5px 10px var(--warmgray500);
 }
 
 .grid-component-tile{
@@ -280,7 +273,7 @@ a{
 .grid-component-tile-link:hover{
     color:var(--warmgray50);
     background-color: var(--warmgray700);
-    box-shadow: 10px 10px 5px var(--warmgray200);
+    box-shadow: 5px 5px 10px var(--warmgray200);
 }
 
 .grid-component-tile-link .grid-component-tile:hover{
@@ -309,7 +302,7 @@ a{
     width:80%;
     margin:1.5rem auto;
     /* border:0.5px solid var(--warmgray500); */
-    border-radius:1rem;
+    border-radius:0.5rem;
     padding:0.5rem;
 }
 
@@ -324,15 +317,15 @@ a{
     border-radius:1rem;
     width:80%;
     margin:0rem auto;
-
 }
 
 .display-flex{
     display: flex;
+    flex-wrap:wrap;
 }
 
 pre{
-    border-radius:1rem;
+    border-radius:0.5rem;
 }
 
 .component-block-html{
