@@ -9,6 +9,7 @@
     margin:1rem;
     position: relative;
     box-shadow: 5px 5px 8px #D6D3D1;
+    overflow: hidden;
 
 }
 
@@ -29,6 +30,30 @@
     position:absolute;
     top:2em;
     left:0em;
+}
+
+.card-block-badge-tilt{
+    text-align:center;
+    font-size:0.6rem;
+    padding:0.1rem 0.5rem;
+    color:white;
+    background-color: #0F172A;
+    position:absolute;
+    width:30%;
+    top:-0.5em;
+    right:0em;
+    transform: rotate(45deg) translate(37%,0);
+    white-space:nowrap;
+}
+
+.card-wishlist-icon{
+    height:30px;
+    width:30px;
+    position:absolute;
+    right:0.25em;
+    bottom:7em;
+    cursor:pointer;
+
 }
 
 .card-block-dismiss{
@@ -90,13 +115,14 @@
 
 .card-block-detail-txt{
     font-size:0.8rem;
-    color:#292524;
+    color:#78716C;
     margin:0.25rem 0rem 0rem 0rem;
 }
 
 .card-block-detail-info{
     font-size:0.75rem;
-    color:#292524;
+    /* color:#1C1917; */
+    color:black;
     margin:0.25rem 0rem 0rem 0rem;
 }
 
