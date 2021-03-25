@@ -47,13 +47,16 @@
 }
 
 .card-wishlist-icon{
-    height:30px;
-    width:30px;
-    position:absolute;
-    right:0.25em;
+    fill: #D4D4D4;
+    position: absolute;
+    right:0.75em;
     bottom:7em;
-    cursor:pointer;
+    width: 1.5rem;
+}
 
+.card-wishlist-icon:hover{
+    fill:#EF4444;
+    cursor:pointer;
 }
 
 .card-block-dismiss{
