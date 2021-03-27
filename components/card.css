@@ -13,11 +13,13 @@
 
 }
 
+
 .card-block-img{
     height:290px;
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
 }
+
 
 .card-block-badge{
     font-size:0.6rem;
@@ -47,13 +49,16 @@
 }
 
 .card-wishlist-icon{
-    height:30px;
-    width:30px;
-    position:absolute;
-    right:0.25em;
+    fill: #D4D4D4;
+    position: absolute;
+    right:0.75em;
     bottom:7em;
-    cursor:pointer;
+    width: 1.5rem;
+}
 
+.card-wishlist-icon:hover{
+    fill:#EF4444;
+    cursor:pointer;
 }
 
 .card-block-dismiss{
@@ -123,7 +128,6 @@
 
 .card-block-detail-info{
     font-size:0.75rem;
-    /* color:#1C1917; */
     color:black;
     margin:0.25rem 0rem 0rem 0rem;
 }
@@ -164,6 +168,102 @@
     position: absolute;
     bottom:0em;
 }
+
+@media screen and (max-width:600px){
+    .card-block{
+        display:flex;
+        flex-direction: column;
+        width:50%;
+        /* min-height:300px; */
+        border-radius:0.25rem;
+        background-color: white;
+        margin:0rem 0.25rem;
+        position: relative;
+        box-shadow: 2px 2px 4px #D6D3D1;
+        overflow: hidden;
+    }   
+
+    .card-block-img{
+        height:180px;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+    }
+
+    .card-block-detail{
+        display:flex;
+        flex-direction: column;
+        padding:0rem 0.25rem;
+        margin:0.25rem;
+    }
+
+    .card-block-detail-title{
+        font-size: 1rem;
+        margin:0.25rem 0rem 0rem 0rem;
+    }
+    
+
+    .card-block-detail-txt{
+        font-size:0.7rem;
+        color:#78716C;
+        margin:0.25rem 0rem 0rem 0rem;
+    }
+
+    .card-block-detail-info{
+        font-size:0.8rem;
+        color:black;
+        margin:0.25rem 0rem 0rem 0rem;
+    }
+
+    .card-block-btn{
+        margin:0.5rem;
+    }
+    
+    .card-block-btn-style{
+        font-size: 0.75rem;
+        background-color: #292524;
+        color:white;
+        padding:0.2rem 0.5rem;
+        width:auto;
+        cursor:pointer;
+    }
+
+    .card-wishlist-icon{
+        fill: #D4D4D4;
+        position: absolute;
+        right:0.5em;
+        bottom:5.5em;
+        width: 1rem;
+    }
+
+    .card-block-badge{
+        font-size:0.5rem;
+        padding:0.1rem 0.35rem;
+        color:white;
+        background-color: #0F172A;
+        border-top-right-radius: 0.2rem;
+        border-bottom-right-radius: 0.2rem;
+        box-shadow: 3px 3px 5px gray;
+        position:absolute;
+        top:2em;
+        left:0em;
+    }
+
+    .card-block-badge-tilt{
+        text-align:center;
+        font-size:0.4rem;
+        padding:0.1rem 0.5rem;
+        color:white;
+        background-color: #0F172A;
+        position:absolute;
+        width:50%;
+        top:-1.75em;
+        right:0em;
+        transform: rotate(45deg) translate(37%,0);
+        white-space:nowrap;
+    }
+
+}
+
 
 
 

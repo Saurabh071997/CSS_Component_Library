@@ -66,7 +66,7 @@
 }
 
 .btn-icon:hover{
-    background-color:#BFDBFE;
+    background-color:#D6D3D1;
 }
 
 .btn-icon-label{
@@ -74,13 +74,13 @@
     padding:0.5rem ;
     border-radius:0.35rem;
     background: transparent;
-    border:0.5px solid #D4D4D8;
+    border:0.5px solid #1C1917;
 }
 
 .btn-label-txt{
     font-size: 1rem;
     margin:0.25rem;
-    color:#0E7490;
+    color:#1C1917;
 }
 
 
@@ -90,7 +90,8 @@
     border-radius: 50%;
     width:60px;
     height:60px;
-    background: #F87171;
+    /* background: #F87171; */
+    background-color: #1C1917;
     box-shadow: 1px 2px 4px gray;
     z-index:3;
     display: flex;
@@ -122,11 +123,16 @@
     visibility: visible;
 }
 
+.box .item{
+    background-color: #1C1917;
+}
+
+
 .item{
     border-radius:50%;
     width:45px;
     height:45px;
-    background: #F87171;
+    /* background: #F87171; */
     transition: 0.4s ease-in;
     box-shadow: 1px 2px 3px gray;
     display: flex;
@@ -136,17 +142,17 @@
 
 .item1{
     transition-delay: 0.2s;
-    background-color: #60A5FA;
+    /* background-color: #60A5FA; */
 }
 
 .item2{
     transition-delay: 0.3s;
-    background-color: #34D399;
+    /* background-color: #34D399; */
 }
 
 .item3{
     transition-delay: 0.4s;
-    background-color: #A78BFA;
+    /* background-color: #A78BFA; */
 }
 
 .item:hover img{
