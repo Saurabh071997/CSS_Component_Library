@@ -65,9 +65,9 @@
     font-size: 0.6rem;
     font-weight: bold;
     padding:0.25rem;
-    border-radius:50%;
-    background-color: #F4F4F5;
-    color:black;
+    border:none;
+    outline:none;
+    background: transparent;
     position: absolute;
     top:0.7em;
     right:0.5em;
@@ -104,6 +104,8 @@
     padding:0.25rem 0.75rem;
     width:auto;
     cursor:pointer;
+    border:none;
+    outline:none;
 }
 
 
@@ -258,6 +260,43 @@
         right:0em;
         transform: rotate(45deg) translate(37%,0);
         white-space:nowrap;
+    }
+
+    .card-horizontal{
+        display:flex;
+        height:180px;
+        width:90%;
+        border-radius:0.25rem;
+        background-color: white;
+        margin:1rem auto;
+        position: relative;
+        box-shadow: 2px 2px 4px #D6D3D1;
+        flex-shrink: 1;
+        /* flex-wrap: wrap; */
+    }
+    
+    .card-horizontal-img{
+        height:auto;
+        width:40%;
+        border-top-left-radius: 0.25rem;
+        border-bottom-left-radius: 0.25rem;
+        display: flex;
+        flex-shrink: 1;
+    }
+    
+    .card-horizontal-block-detail{
+        display:flex;
+        flex-direction: column;
+        margin-left: 0.75rem;
+        padding-top: 1rem;
+        width:60%;
+        position: relative;
+    }
+    
+    .card-horizontal-block-btn{
+        margin:1rem 0rem;
+        position: absolute;
+        bottom:0em;
     }
 
 }
