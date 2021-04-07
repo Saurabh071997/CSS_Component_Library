@@ -61,8 +61,21 @@
 }
 
 .nav-home-icon{
-    margin-left:0.5rem;
-    flex-shrink: 1;
+  margin: 0rem 0rem 0rem 0.5rem ;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+
+.nav-center{
+    margin: 0 ;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-right: 1rem;
 }
 
 .nav-search-icon{
