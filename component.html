@@ -2,154 +2,546 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POOL.ui | Saurabh Kamboj</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/mobile.layout.style.css">
-    <link rel="stylesheet" href="/prism.css">
-    <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POOL.ui | Saurabh Kamboj</title>
+  <link rel="stylesheet" href="/style.css">
+  <!-- <link rel="stylesheet" href="/mobile.layout.style.css"> -->
+  <link rel="stylesheet" href="/prism.css">
+  <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/png">
 </head>
 
 <body>
 
-    <div class="sidebar" id="side-nav">
-        <img  class="close-icon" src = "/images/cross.svg">
-        <div class="sidebar-content">
-            <a href="/index.html" class="sidebar-heading">Home</a>
-            <a href="/component.html" class="sidebar-heading">Components</a>
-            <div class="sidebar-block">
-                <a href="#" >Alert</a>
-                <a href="#" >Avatar</a>
-                <a href="#" >Badge</a>
-                <a href="#" >Button</a>
-                <a href="#" >Card</a>
-                <a href="#" >Image</a>
-                <a href="#" >Input</a>
-                <a href="#" >List</a>
-                <a href="#" >Modal</a>
-                <a href="#" >Navigation</a>
-                <a href="#">Slider</a>
-                <a href="#" >Text-Utilities</a>
-                <a href="#" >Toast</a>
-            </div>
-            <div class="space20"></div>
-        </div>
+  <div class="sidebar" id="side-nav">
+    <img class="close-icon" src="/images/cross.svg">
+    <div class="sidebar-content">
+      <a href="/index.html" class="sidebar-heading">Home</a>
+      <a href="/component.html" class="sidebar-heading">Components</a>
+      <div class="sidebar-block">
+        <a href="#">Alert</a>
+        <a href="#">Avatar</a>
+        <a href="#">Badge</a>
+        <a href="#">Button</a>
+        <a href="#">Card</a>
+        <a href="#">Image</a>
+        <a href="#">Input</a>
+        <a href="#">List</a>
+        <a href="#">Modal</a>
+        <a href="#">Navigation</a>
+        <a href="#">Slider</a>
+        <a href="#">Text-Utilities</a>
+        <a href="#">Toast</a>
+      </div>
+      <div class="space20"></div>
+    </div>
+  </div>
+
+  <nav>
+    <div class='nav-head'>
+      <img src='./images/open.svg' alt='icon-img' class='open-icon'>
+      <div class='nav-txt'>
+        <div class='nav-txt-big'>pool.UI</div>
+        <div class='nav-txt-small'>| saurabh kamboj</div>
+      </div>
+    </div>
+  </nav>
+
+  <div class='page-grid'>
+    <div class='grid-left'>
     </div>
 
-    <nav>
-        <div class='nav-head'>
-            <img src='./images/open.svg' alt='icon-img' class='open-icon' >
-            <div class='nav-txt'>
-                <div class='nav-txt-big'>pool.UI</div>
-                <div class='nav-txt-small'>| saurabh kamboj</div>
+    <div class=grid-right>
+
+      <div class='grid-block' id='block-alert'>
+        <div class='grid-block-heading'>Alerts</div>
+
+        <div class='grid-sub-block'>
+          <!-- <div class="grid-sub-block-head"></div> -->
+          <div class="grid-sub-block-item">
+
+            <div class="alert alert-primary">
+              A simple primary alert !
             </div>
+            <div class="alert alert-secondary">
+              A simple secondary alert !
+            </div>
+            <div class="alert alert-success">
+              A simple success alert !
+            </div>
+            <div class="alert alert-danger">
+              A simple danger alert !
+            </div>
+            <div class="alert alert-warning">
+              A simple warning alert !
+            </div>
+            <div class="alert alert-info">
+              A simple info alert !
+            </div>
+            <div class="alert alert-light">
+              A simple light alert !
+            </div>
+            <div class="alert alert-dark">
+              A simple dark alert !
+            </div>
+
+          </div>
+
+
         </div>
-    </nav>
 
-    <div class='page-grid'>
-        <div class='grid-left'>
+
+      </div>
+
+
+      <div class='grid-block' id='block-avatar'>
+        <div class='grid-block-heading'>Avatar</div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Circular Avatar</div>
+          <div class="grid-sub-block-item display-flex">
+            <img src="/component_img/img_avatar.png" class="avatar-circular img50x50">
+            <img src="/component_img/img_avatar.png" class="avatar-circular img60x60">
+            <img src="/component_img/img_avatar.png" class="avatar-circular img70x70">
+          </div>
         </div>
 
-        <div class=grid-right>
 
-            <div class='grid-block' id='block-alert'>
-                <div class='grid-block-heading'>Alerts</div>
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Rounded Avatar</div>
+          <div class="grid-sub-block-item display-flex">
+            <img src="/component_img/img_avatar.png" class="avatar-rounded img50x50">
+            <img src="/component_img/img_avatar.png" class="avatar-rounded img60x60">
+            <img src="/component_img/img_avatar.png" class="avatar-rounded img70x70">
+          </div>
+        </div>
 
-                <div class='grid-sub-block'>
-                    <!-- <div class="grid-sub-block-head"></div> -->
-                    <div class="grid-sub-block-item">
 
-                        <div class="alert alert-primary" >
-                            A simple primary alert !
-                          </div>
-                          <div class="alert alert-secondary" >
-                            A simple secondary alert !
-                          </div>
-                          <div class="alert alert-success" >
-                            A simple success alert !
-                          </div>
-                          <div class="alert alert-danger" >
-                            A simple danger alert !
-                          </div>
-                          <div class="alert alert-warning" >
-                            A simple warning alert !
-                          </div>
-                          <div class="alert alert-info" >
-                            A simple info alert !
-                          </div>
-                          <div class="alert alert-light" >
-                            A simple light alert !
-                          </div>
-                          <div class="alert alert-dark" >
-                            A simple dark alert !
-                          </div>
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Circular Avatar with Placehoder icon</div>
+          <div class="grid-sub-block-item display-flex">
+            <img src="https://via.placeholder.com/150" class="avatar-circular img50x50">
+            <img src="https://via.placeholder.com/150" class="avatar-circular img60x60">
+            <img src="https://via.placeholder.com/150" class="avatar-circular img70x70">
+          </div>
+        </div>
 
-                    </div>
-                    
 
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Circular Avatar with Initials</div>
+          <div class="grid-sub-block-item display-flex">
+            <div class="avatar-initial avatar-circular img50x50 text-sm">SK</div>
+            <div class="avatar-initial avatar-circular img60x60 text-md">SK</div>
+            <div class="avatar-initial avatar-circular img70x70 text-lg">SK</div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="grid-block" id='block-badge'>
+        <div class="grid-block-heading">Badge</div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Badge on icons</div>
+          <div class="grid-sub-block-item display-flex">
+
+
+            <div class="badge-icon img50x50">
+              <img class="badge-icon-img" src="/component_img/cart-icon.svg">
+              <div class="badge-icon-num">5</div>
+            </div>
+
+            <div class="badge-icon img60x60">
+              <img class="badge-icon-img" src="/component_img/cart-icon.svg">
+              <div class="badge-icon-num">6</div>
+            </div>
+
+            <div class="badge-icon img70x70">
+              <img class="badge-icon-img" src="/component_img/cart-icon.svg">
+              <div class="badge-icon-num">7</div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Badge on avatar</div>
+          <div class="grid-sub-block-item display-flex">
+
+            <div class="badge-icon img50x50">
+              <img class="badge-icon-img " src="/component_img/batman.png">
+              <div class="badge-icon-dot dot-green"></div>
+            </div>
+
+            <div class="badge-icon img60x60">
+              <img class="badge-icon-img" src="/component_img/batman.png">
+              <div class="badge-icon-dot dot-red"></div>
+            </div>
+
+            <div class="badge-icon img70x70">
+              <img class="badge-icon-img" src="/component_img/batman.png">
+              <div class="badge-icon-dot dot-red"></div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="grid-block" id='block-button'>
+        <div class="grid-block-heading">Button</div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Contained Buttons</div>
+          <div class="grid-sub-block-item display-flex">
+            <button type="button" class="btn btn-contained-primary">
+              Primary
+            </button>
+
+            <button type="button" class="btn btn-contained-secondary">
+              Secondary
+            </button>
+
+            <button type="button" class="btn btn-contained-success">
+              Success
+            </button>
+
+            <button type="button" class="btn btn-contained-failure">
+              Failure
+            </button>
+          </div>
+        </div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Outlined Buttons</div>
+          <div class="grid-sub-block-item display-flex">
+            <button type="button" class="btn btn-outlined-primary">
+              Primary
+            </button>
+
+            <button type="button" class="btn btn-outlined-secondary">
+              Secondary
+            </button>
+
+            <button type="button" class="btn btn-outlined-success">
+              Success
+            </button>
+
+            <button type="button" class="btn btn-outlined-failure">
+              Failure
+            </button>
+          </div>
+        </div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Icon Buttons</div>
+          <div class="grid-sub-block-item display-flex">
+            <button type="button" class="btn-icon">
+              <img class="img30x30 img-svg" src="/component_img/delete-icon.svg" />
+            </button>
+
+            <button type="button" class="btn-icon">
+              <img class="img30x30" src="/component_img/send-icon.svg" />
+            </button>
+
+            <button type="button" class="btn-icon">
+              <img class="img30x30" src="/component_img/upload.svg" />
+            </button>
+
+            <button type="button" class="btn-icon">
+              <img class="img30x30" src="/component_img/capture.svg" />
+            </button>
+
+          </div>
+        </div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Icon Buttons with Labels</div>
+
+          <div class="grid-sub-block-item display-flex">
+            <button type="button" class="btn-icon-label">
+              <img class="img15x15" src="/component_img/delete-icon.svg" />
+              <span class="btn-label-txt">Delete</span>
+            </button>
+
+            <button type="button" class="btn-icon-label">
+              <img class="img15x15" src="/component_img/send-icon.svg" />
+              <span class="btn-label-txt">Send</span>
+            </button>
+
+            <button type="button" class="btn-icon-label">
+              <img class="img15x15" src="/component_img/upload.svg" />
+              <span class="btn-label-txt">Upload</span>
+            </button>
+
+            <button type="button" class="btn-icon-label">
+              <img class="img15x15" src="/component_img/capture.svg" />
+              <span class="btn-label-txt">Capture</span>
+            </button>
+
+          </div>
+
+        </div>
+
+        <div class="grid-sub-block">
+          <div class="geid-sub-block-head">Floating Action Button</div>
+          <div class="grid-sub-block-item display-flex">
+            <div class="fab">
+              <img src="/component_img/fab-pen.svg" />
+            </div>
+
+            <div class="box">
+              <a href="" class="item item1"><img class="img35x35" src="/component_img/fab-doc.svg" /></a>
+              <a href="" class="item item2"><img class="img35x35" src="/component_img/fab-file.svg" /></a>
+              <a href="" class="item item3"><img class="img35x35" src="/component_img/fab-video.svg" /></a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="grid-block" id='block-card'>
+        <div class="grid-block-heading">Cards</div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Text Only Card</div>
+          <div class="grid-sub-block-item">
+
+            <div class="card-block">
+              <div class="card-block-heading">Card Heading</div>
+
+              <div class="card-block-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum possimus at nisi ab amet laboriosam esse
+                facere aut quibusdam perferendis.
+              </div>
+
+              <div class="card-block-btn">
+                <a href="#" class="card-block-btn-style">
+                  Explore
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Card with Images</div>
+          <div class="grid-sub-block-item">
+
+            <div class="card-block">
+              <img class="card-block-img" src="/component_img/card-img.jpg" />
+
+              <div class="card-block-detail">
+                <div class="card-block-detail-title">H&M</div>
+
+                <div class="card-block-detail-txt">
+                  Regular Fit T-shirt
                 </div>
 
-                
+                <div class="card-block-detail-info">Rs. 1499</div>
+
+              </div>
+
+              <div class="card-block-btn">
+                <a href="#" class="card-block-btn-style">
+                  Explore
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Card with Badge</div>
+          <div class="grid-sub-block-item">
+            <div class="card-block">
+              <img class="card-block-img" src="/component_img/card-img.jpg" />
+
+              <div class="card-block-badge">New</div>
+
+              <div class="card-block-detail">
+                <div class="card-block-detail-title">H&M</div>
+
+                <div class="card-block-detail-txt">
+                  Regular Fit T-shirt
+                </div>
+
+                <div class="card-block-detail-info">Rs. 1499</div>
+
+              </div>
+
+              <div class="card-block-btn">
+                <a href="#" class="card-block-btn-style">
+                  Explore
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Card with Tilted Badge</div>
+          <div class="grid-sub-block-item">
+            <div class="card-block">
+
+              <img class="card-block-img" src="/component_img/card-img.jpg">
+
+              <div class="card-block-badge-tilt">15% Off</div>
+
+              <div class="card-block-detail">
+                <div class="card-block-detail-title">H&M</div>
+                <div class="card-block-detail-txt">
+                  Regular Fit T-shirt
+                </div>
+                <div class="card-block-detail-info">Rs. 1499</div>
+              </div>
+
+              <div class="card-block-btn">
+                <a href="#" class="card-block-btn-style">
+                  Explore
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Card with Dismiss icon</div>
+          <div class="grid-sub-block-item">
+            <div class="card-block">
+              <img class="card-block-img" src="/component_img/card-img.jpg" />
+
+              <button class="card-block-dismiss">
+                <img src="/component_img/delete-icon.svg" class="img15x15" />
+              </button>
+
+              <div class="card-block-detail">
+                <div class="card-block-detail-title">H&M</div>
+
+                <div class="card-block-detail-txt">
+                  Regular Fit T-shirt
+                </div>
+
+                <div class="card-block-detail-info">Rs. 1499</div>
+
+              </div>
+
+              <div class="card-block-btn">
+                <a href="#" class="card-block-btn-style">
+                  Explore
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Card with Wishlist icon</div>
+          <div class="grid-sub-block-item">
+            <div class="card-block">
+
+              <img class="card-block-img" src="/component_img/card-img.jpg">
+
+
+              <div class="card-block-badge">New</div>
+
+
+              <div class="card-block-detail">
+
+              <svg class="card-wishlist-icon" viewBox="0 0 32 29.6">
+                <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+                    c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z" />
+              </svg>
+
+                <div class="card-block-detail-title">H&M</div>
+
+                <div class="card-block-detail-txt">
+                  Regular Fit T-shirt
+                </div>
+
+                <div class="card-block-detail-info">Rs. 1499</div>
+
+              </div>
+
+              <div class="card-block-btn">
+                <a href="#" class="card-block-btn-style">
+                  Explore
+                </a>
+              </div>
             </div>
 
 
-            <div class='grid-block' id='block-avatar'>
-              <div class='grid-block-heading'>Avatar</div>
+          </div>
+        </div>
 
-              <div class="grid-sub-block">
-                <div class="grid-sub-block-head">Circular Avatar</div>
-                <div class="grid-sub-block-item display-flex">
-                  <img src="/component_img/img_avatar.png" class="avatar-circular img50x50">
-                  <img src="/component_img/img_avatar.png" class="avatar-circular img60x60">
-                  <img src="/component_img/img_avatar.png" class="avatar-circular img70x70">
-                </div>
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Horizontal Card</div>
+          <div class="grid-sub-block-item">
+
+            <div class="card-horizontal"> 
+              <img class="card-horizontal-img" src="/component_img/card-img.jpg"/>
+             
+              <div class="card-block-badge">New</div>
+
+              <div class="card-horizontal-block-detail">
+                  <div class="card-block-detail-title">H&M</div>
+
+
+                  <div class="card-block-detail-txt">
+                      Regular Fit T-shirt
+                  </div>
+
+                  <div class="card-block-detail-info">Rs. 1499</div>
+
+                  <div class="card-horizontal-block-btn">
+                      <a href ="#" class="card-block-btn-style">
+                          Explore
+                      </a>
+                  </div>
+
               </div>
 
-              
-              <div class="grid-sub-block">
-                <div class="grid-sub-block-head">Rounded Avatar</div>
-                <div class="grid-sub-block-item display-flex">
-                  <img src="/component_img/img_avatar.png" class="avatar-rounded img50x50">
-                  <img src="/component_img/img_avatar.png" class="avatar-rounded img60x60">
-                  <img src="/component_img/img_avatar.png" class="avatar-rounded img70x70">
-                </div>
-              </div>
 
-
-              <div class="grid-sub-block">
-                <div class="grid-sub-block-head">Circular Avatar with Placehoder icon</div>
-                <div class="grid-sub-block-item display-flex">
-                  <img src="https://via.placeholder.com/150" class="avatar-circular img50x50">
-                  <img src="https://via.placeholder.com/150" class="avatar-circular img60x60">
-                  <img src="https://via.placeholder.com/150" class="avatar-circular img70x70">
-                </div>
-              </div>
-
-
-              
-              <div class="grid-sub-block">
-                <div class="grid-sub-block-head">Circular Avatar with Initials</div>
-                <div class="grid-sub-block-item display-flex">
-                  <div class="avatar-initial avatar-circular img50x50 text-sm">SK</div>
-                  <div class="avatar-initial avatar-circular img60x60 text-md">SK</div>
-                  <div class="avatar-initial avatar-circular img70x70 text-lg">SK</div>
-                </div>
-              </div>
-
-            </div>
-
-
-
-
+          </div>
             
 
-        </div>
-    </div>
 
-    <script src="/app.js"></script>
-    <script src="/prism.js"></script>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+  <script src="/prism.js"></script>
 
 </body>
 
