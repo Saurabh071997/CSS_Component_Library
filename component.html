@@ -7,8 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>POOL.ui | Saurabh Kamboj</title>
   <link rel="stylesheet" href="/style.css">
-  <!-- <link rel="stylesheet" href="/mobile.layout.style.css"> -->
-  <link rel="stylesheet" href="/prism.css">
   <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/png">
 </head>
 
@@ -631,7 +629,7 @@
 
       </div>
 
-      
+
       <div class="grid-block" id='grid-block-list'>
         <div class="grid-block-heading">Lists</div>
 
@@ -724,18 +722,87 @@
       </div>
 
 
+      <div class="grid-block" id='grid-block-modal'>
+        <div class="grid-block-heading">Modal</div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-item">
+
+            <button data-modal-target="#modal" class="modal-open-btn">Open Modal</button>
+
+            <div class="modal" id="modal">
+              <div class="modal-header">Modal Title</div>
+              <div class="modal-body">
+                <div class="modal-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsam rerum
+                  minus ab perferendis quibusdam, qui veritatis fugiat saepe voluptatibus error asperiores et tenetur
+                  eaque. Blanditiis atque sunt, voluptas eum mollitia nihil temporibus, odio maxime excepturi recusandae
+                  nisi doloremque labore architecto voluptates sequi voluptatibus sint. Debitis dicta id rerum sit.
+                </div>
+                <button data-close-btn class="modal-close-btn">Close</button>
+              </div>
+            </div>
+
+            <div id="overlay"></div>
 
 
+          </div>
+        </div>
+      </div>
 
 
+      <div class="grid-block" id='grid-block-navigation'>
+        <div class="grid-block-heading">Navigation</div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Left Aligned Nav-bar</div>
+          <div class="grid-sub-block-item">
+            <div class="nav-bar">
+              <div class="nav-bar-left">
+                <a href="#" class="nav-item">Home</a>
+                <a href="#" class="nav-item">About</a>
+                <a href="#" class="nav-item">Blogs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Right Aligned Nav-bar</div>
+          <div class="grid-sub-block-item">
+            <div class="nav-bar">
+              <div class="nav-bar-right">
+                <a href="#" class="nav-item">Home</a>
+                <a href="#" class="nav-item">About</a>
+                <a href="#" class="nav-item">Blogs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-sub-block">
+          <div class="grid-sub-block-head">Nav-bar with Search</div>
+          <div class="grid-sub-block-item">
+            <div class="nav-bar">
+              <img class="nav-home-icon img30x30" src="/component_img/nav-home.svg">
+              <div class="nav-bar-right nav-center">
+                <img class="nav-search-icon img20x20" src="/component_img/search.svg">
+                <input class="nav-search" type="text" placeHolder="Search">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
 
-
+    
     </div>
   </div>
 
+
+
   <script src="/app.js"></script>
-  <script src="/prism.js"></script>
+  <script src="/modal.js"></script>
 
 </body>
 
