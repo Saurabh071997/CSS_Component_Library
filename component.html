@@ -16,21 +16,22 @@
     <img class="close-icon" src="/images/cross.svg">
     <div class="sidebar-content">
       <a href="/index.html" class="sidebar-heading">Home</a>
+      <a href="#grid-block-intro" class="sidebar-heading close-nav">Download</a>
       <a href="/component.html" class="sidebar-heading">Components</a>
       <div class="sidebar-block">
-        <a href="#">Alert</a>
-        <a href="#">Avatar</a>
-        <a href="#">Badge</a>
-        <a href="#">Button</a>
-        <a href="#">Card</a>
-        <a href="#">Image</a>
-        <a href="#">Input</a>
-        <a href="#">List</a>
-        <a href="#">Modal</a>
-        <a href="#">Navigation</a>
-        <a href="#">Slider</a>
-        <a href="#">Text-Utilities</a>
-        <a href="#">Toast</a>
+        <a href="#grid-block-alert" class='close-nav'>Alert</a>
+        <a href="#grid-block-avatar" class='close-nav'>Avatar</a>
+        <a href="#grid-block-badge" class='close-nav'>Badge</a>
+        <a href="#grid-block-button" class='close-nav'>Button</a>
+        <a href="#grid-block-card" class='close-nav'>Card</a>
+        <a href="#grid-block-image" class='close-nav'>Image</a>
+        <a href="#grid-block-input" class='close-nav'>Input</a>
+        <a href="#grid-block-list" class='close-nav'>List</a>
+        <a href="#grid-block-modal" class='close-nav'>Modal</a>
+        <a href="#grid-block-navigation" class='close-nav'>Navigation</a>
+        <a href="#grid-block-slider" class='close-nav'>Slider</a>
+        <a href="#grid-block-text-utilities" class='close-nav'>Text-Utilities</a>
+        <a href="#grid-block-toast" class='close-nav'>Toast</a>
       </div>
       <div class="space20"></div>
     </div>
@@ -48,9 +49,65 @@
 
   <div class='page-grid'>
     <div class='grid-left'>
+      <div class="grid-side-nav">
+
+        <a href='/index.html' class="grid-side-nav-head">Home</a>
+        <a href='#grid-block-intro' class="grid-side-nav-head">Download</a>
+        <a href="/component.html" class="grid-side-nav-head">Components</a>
+
+        <div class="grid-side-nav-item">
+          <a href="#grid-block-alert">Alert</a>
+          <a href="#grid-block-avatar">Avatar</a>
+          <a href="#grid-block-badge">Badge</a>
+          <a href="#grid-block-button">Button</a>
+          <a href="#grid-block-card">Card</a>
+          <a href="#grid-block-image">Image</a>
+          <a href="#grid-block-input">Input</a>
+          <a href="#grid-block-list">List</a>
+          <a href="#grid-block-modal">Modal</a>
+          <a href="#grid-block-navigation">Navigation</a>
+          <a href="#grid-block-slider">Slider</a>
+          <a href="#grid-block-text-utilities">Text-Utilities</a>
+          <a href="#grid-block-toast">Toast</a>
+
+        </div>
+
+        <div class="space20"></div>
+
+      </div>
+
+
     </div>
 
     <div class=grid-right>
+
+
+      <div class="grid-block" id='grid-block-intro'>
+        <div class="grid-block-heading">Introduction</div>
+
+        <div class="grid-block-content">
+          Get started with <strong>pool.UI</strong>,
+          the world’s most popular library for building responsive,
+          mobile-first and desktop sites using our variety of responsive components.
+        </div>
+
+        <div class="grid-temp-head">Quick Start</div>
+
+        <div class="grid-block-items">
+          <div cass='btn-download'>
+            <a download href='/app.js'><button class='grid-block-btn'>Download JS</button></a>
+          </div>
+          <div cass='btn-download'>
+            <a download href='/app.js'><button class='grid-block-btn'>Download CSS</button></a>
+          </div>
+
+        </div>
+
+        <div class="grid-block-content">Using cdn</div>
+
+
+      </div>
+
 
       <div class='grid-block' id='grid-block-alert'>
         <div class='grid-block-heading'>Alerts</div>
@@ -905,44 +962,44 @@
       </div>
 
 
-    </div>
-  </div>
+      <footer>
 
+        <div class="flex-footer">
+          <div class="footer">
 
-  <footer>
+            <div class="footer-text">Connect with us :</div>
 
-    <div class="flex-footer">
-      <div class="footer">
+            <div class="footer-social-link-bar">
 
-        <div class="footer-text">Connect with us :</div>
+              <a href="https://twitter.com/im_saurabhK" class="footer-social-link">
+                <img class="footer-social-link-img" src="/images/twitter.svg">
+              </a>
 
-        <div class="footer-social-link-bar">
+              <a href="https://www.linkedin.com/in/saurabh-kamboj/" class="footer-social-link">
+                <img class="footer-social-link-img" src="/images/linkedin.svg">
+              </a>
 
-          <a href="https://twitter.com/im_saurabhK" class="footer-social-link">
-            <img class="footer-social-link-img" src="/images/twitter.svg">
-          </a>
+              <a href="https://github.com/Saurabh071997" class="footer-social-link">
+                <img class="footer-social-link-img" src="/images/github.svg">
+              </a>
 
-          <a href="https://www.linkedin.com/in/saurabh-kamboj/" class="footer-social-link">
-            <img class="footer-social-link-img" src="/images/linkedin.svg">
-          </a>
-
-          <a href="https://github.com/Saurabh071997" class="footer-social-link">
-            <img class="footer-social-link-img" src="/images/github.svg">
-          </a>
-
-          <a href="mailto:saurabhkamboj1997@gmail.com" class="footer-social-link">
-            <img class="footer-social-link-img" src="/images/mail.svg">
-          </a>
+              <a href="mailto:saurabhkamboj1997@gmail.com" class="footer-social-link">
+                <img class="footer-social-link-img" src="/images/mail.svg">
+              </a>
 
 
 
+            </div>
+
+
+          </div>
         </div>
 
+      </footer>
 
-      </div>
+
     </div>
-
-  </footer>
+  </div>
 
 
 

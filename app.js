@@ -18,6 +18,14 @@ document.querySelector(".open-icon")
 document.querySelector(".close-icon")
 .addEventListener("click", closeMenu);
 
+
+document.querySelectorAll('.close-nav').forEach(close_nav=>{
+    close_nav.addEventListener('click', closeMenu)
+})
+
+
+
+
 document.querySelector(".fab").addEventListener("click", function(){
     document.querySelector(".box").classList.toggle("box-active");
 })
