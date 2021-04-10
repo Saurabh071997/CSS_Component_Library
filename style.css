@@ -69,6 +69,8 @@ nav{
     height:5rem;
     width:5rem;
     margin-right: 0.35rem;
+    position: relative;
+    top:0.5em;
 }
 
 .nav-txt{
@@ -81,6 +83,7 @@ nav{
     color:white;
     align-self: flex-end;
 }
+
 
 .nav-txt-small{
     font-size:var(--txt-125);
@@ -321,7 +324,6 @@ footer{
 }
 
 
-
 .grid-block-heading{
     font-size:var(--txt-25);
     margin:2rem 0rem 1rem 0rem ;
@@ -345,6 +347,7 @@ footer{
 .grid-block-items{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 1rem;
 }
 
 .grid-block-btn{
@@ -370,9 +373,28 @@ footer{
 }
 
 .grid-sub-block-item{
-    padding:0.5rem 1rem;
+    padding:1rem;
     border:1px solid var(--truegray300);
     border-radius:0.25rem;
+}
+
+.grid-sub-block-img{
+    margin:1rem 0rem;
+    width:98%;
+}
+
+.grid-frame{
+    width:96%;
+    border:none;
+    outline:none;
+    margin: 0rem;
+    overflow: auto;
+
+}
+
+.grid-sub-block-html{
+    font-size: var(--txt-1);
+    margin: 2rem 0rem 0.5rem 0rem;
 }
 
 .display-flex{
