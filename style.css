@@ -53,7 +53,7 @@ body {
 nav {
   position: sticky;
   top: 0em;
-  z-index: var(--zIndexMd);
+  z-index: var(--zIndexMax);
   margin: 0rem;
 }
 
@@ -94,7 +94,7 @@ nav {
   margin: 2rem auto;
   padding: 0rem 0.5rem;
   width: 60%;
-  /* min-height: 100vh; */
+  min-height: 100vh;
 }
 
 .page-title {
@@ -135,12 +135,14 @@ a {
   color: var(--truegray50);
   font-size: var(--txt-15);
   padding: 0.75rem 1rem;
+  border-radius: 0.35rem;
 }
 
 .btn-start:hover {
   background-color: var(--truegray50);
   color: var(--truegray900);
   border: 1px solid var(--truegray900);
+  cursor: pointer;
 }
 
 footer {
@@ -186,7 +188,7 @@ footer {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 2rem;
-  z-index: var(--zIndexMax);
+  z-index: var(--zIndexMd);
   transform: scale(0);
 }
 
@@ -252,7 +254,7 @@ footer {
   padding: 2rem 0.5rem 1rem 2rem;
 
   height: 80vh;
-  z-index: 1000;
+  z-index: inherit;
   overflow-y: scroll;
   position: sticky;
   top:7em;
@@ -1512,6 +1514,19 @@ label {
   }
 }
 
+.div-fix{
+  position: fixed;
+  bottom: 1rem;
+  right:1rem;
+}
+
+.btn-fix{
+  border:none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 600px) {
   .nav-head {
     padding: 0.5rem;
@@ -1708,5 +1723,9 @@ label {
     max-height: 65%;
     overflow: scroll;
     margin: auto;
+  }
+
+  .div-fix{
+    display: none;
   }
 }
